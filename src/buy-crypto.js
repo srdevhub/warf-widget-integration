@@ -15,6 +15,12 @@ const options = {
     loaded: () => console.log('loaded'),
   },
 };
+
+console.log(options);
+console.log("main discussion");
+
 const wertWidget = new WertWidget(options);
+
+console.log(wertWidget);
 
 wertWidget.mount();
