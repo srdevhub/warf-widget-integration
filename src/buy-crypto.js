@@ -17,6 +17,7 @@ const options = {
 };
 
 console.log(options);
+console.log("main discussion");
 
 const wertWidget = new WertWidget(options);
 
