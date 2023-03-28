@@ -15,6 +15,9 @@ const options = {
     loaded: () => console.log('loaded'),
   },
 };
+
+console.log(options);
+
 const wertWidget = new WertWidget(options);
 
 console.log(wertWidget);
