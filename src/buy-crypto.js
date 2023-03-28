@@ -17,4 +17,6 @@ const options = {
 };
 const wertWidget = new WertWidget(options);
 
+console.log(wertWidget);
+
 wertWidget.mount();
